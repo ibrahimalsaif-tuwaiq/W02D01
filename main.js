@@ -249,8 +249,6 @@ const reversString2 = function (string) {
   return newString;
 };
 
-console.log(reversString2("Hello"));
-
 reversString("Hello"); // => "olleH"
 reversString("John"); // => "nhoJ"
 
