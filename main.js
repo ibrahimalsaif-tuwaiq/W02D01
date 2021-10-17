@@ -284,7 +284,6 @@ allUsers; // => [{username: "Jane", password: "123456"}, {username: "admin", pas
 const sliceArray = function (array, control) {
   const newArray = [];
   let counter = Math.ceil(array.length / 2);
-  console.log(counter);
   for (let i = 0; i < counter; i++) {
     newArray.push(array.splice(0, control));
     if (array.length === 0) {
